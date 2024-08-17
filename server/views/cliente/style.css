@@ -1,0 +1,21 @@
+#streamVideo{
+    outline: 1px solid blue;
+
+    width: 600px;
+    height: 400px;
+}
+
+#mensaje{
+    outline: 1px solid red;
+    border: 3px solid white;
+    margin: 0 0 0 20px;
+    width: 200px;
+    height: 400px;
+    overflow: auto;
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.content{
+    display: flex;
+}

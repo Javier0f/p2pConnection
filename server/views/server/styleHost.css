@@ -1,0 +1,24 @@
+#localVideo{
+    outline: 1px solid red;
+
+    width: 600px;
+    height: 400px;
+}
+
+#connection_state{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    padding: 1px 3px;
+    width: fit-content;
+    color: #000;
+}
+
+.state_disconnected{
+    background-color: #f55;
+}
+.state_checking{
+    background-color: #ff9;
+}
+.state_connected{
+    background-color: #9f9;
+}

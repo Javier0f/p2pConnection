@@ -1,0 +1,18 @@
+{
+  "name": "prueba-coneccion-webrtc",
+  "version": "1.0.0",
+  "description": "prueba rapida de un servidor para conecciones webrtc",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "author": "Javier Francisco Figueroa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "peer": "^1.0.2",
+    "peerjs": "^1.5.4",
+    "socket.io": "^4.7.5"
+  }
+}
